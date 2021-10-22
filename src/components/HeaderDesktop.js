@@ -5,7 +5,7 @@ import { SidebarData } from './SidebarData';
 
 const HeaderDesktop = () => {
     return (
-        <header className="flex flex-row bg-gray-200 p-16 rounded-b-lg background-header text-white	">
+        <header className="flex flex-row bg-gray-200 p-8 rounded-b-lg background-header text-white	">
             <div className="container w-1/5">
                 <h1>Aqui va logo</h1>
             </div>

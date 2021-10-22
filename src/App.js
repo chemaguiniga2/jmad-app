@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Header from './components/Header';
+import Home from './pages/Home';
 
 
 
@@ -17,7 +18,7 @@ function App() {
       <Router>
         <Header />
         <Switch>
-          <Route path='/' />
+          <Route path='/' component={Home}/>
         </Switch>
       </Router>
     </Fragment>

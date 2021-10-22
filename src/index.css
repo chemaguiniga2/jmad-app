@@ -5,6 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'IBM Plex Sans', sans-serif;
+  
 }
 
 code {
@@ -14,4 +16,8 @@ code {
 
 .background-header {
   background-color: #25415a;
+}
+
+.name-chema {
+  color: #25415a;;
 }
