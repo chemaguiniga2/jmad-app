@@ -2,13 +2,13 @@ import React from 'react';
 
 
 
-const Img = () => {
+const Img = ({srcImg, atlName, classes}) => {
     return (
-        <div className="flex md:justify-end justify-center">
+        <div className={classes}>
             <img
                 className="w-9/12"
-                src="/images/perfil.jpg"
-                alt="perfil"
+                src={srcImg}
+                alt={atlName}
             />
         </div>
     );
